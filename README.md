@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pulse of Sri Lanka - FrontEnd
 
-## Getting Started
+A modern, responsive social media platform, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), and TypeScript. This project replicates the core user interface of X, focusing on clean design, smooth interactions, and a modular component structure.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Project Structure](#project-structure)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Responsive design for mobile, tablet, and desktop
+- Reusable React components for posts, navigation, and user profiles
+- Styled with Tailwind CSS for a modern and sleek look
+- Fast development and build process
+- Mimics core X platform UI elements like timeline, sidebar, and modals
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **React**: JavaScript library for building user interfaces
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **Next**: Next-generation frontend tooling for fast builds
+- **JavaScript (ES6+)**: Modern JavaScript syntax with Babel support
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get started with the project, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```bash
+    git clone https://github.com/safak/x-clone-ui.git
+    cd x-clone-ui
+   ```
+2. Checkout the completed branch:
+    ```bash
+    git checkout completed
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-## Deploy on Vercel
+## Running the Project
+1. Start the development server:
+    ```bash
+    npm run dev
+   ```
+2. Open your browser and navigate to http://localhost:3000
+3. To build the project for production:
+    ```bash
+    npm run build
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    pulse-of-sri-lanka/
+        frontend/
+        ├── public/                  # Static assets
+        │    ├── general/            # Images, icons, etc.
+        │    ├── icons/              # Icons, etc.
+        │    ├── svg/                # Images, icons, etc.
+        ├── src
+        │   ├── app                  # App Router for pages and layouts
+        │   │   ├── (pages)/         # Grouped routes (e.g., home, profile)
+        │   │   ├── layout.tsx       # Root layout for the app
+        │   │   ├── page.tsx         # Root page (e.g., homepage)
+        │   │   ├── globals.css      # Global styles
+        │   ├── components/          # Reusable React components
+        ├── package.json             # Project dependencies and scripts
+        ├── next.config.js           # Next configuration
+        └── README.md                # Project documentation
