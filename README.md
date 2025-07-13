@@ -31,8 +31,8 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-    git clone https://github.com/safak/x-clone-ui.git
-    cd x-clone-ui
+    git clone git@github.com:DulanWirajith/next15-boilerplate.git
+    cd next15-boilerplate
    ```
 2. Checkout the completed branch:
     ```bash
@@ -55,20 +55,18 @@ To get started with the project, follow these steps:
     ```
 
 ## Project Structure
-
-    pulse-of-sri-lanka/
-        frontend/
-        ├── public/                  # Static assets
-        │    ├── general/            # Images, icons, etc.
-        │    ├── icons/              # Icons, etc.
-        │    ├── svg/                # Images, icons, etc.
-        ├── src
-        │   ├── app                  # App Router for pages and layouts
-        │   │   ├── (pages)/         # Grouped routes (e.g., home, profile)
-        │   │   ├── layout.tsx       # Root layout for the app
-        │   │   ├── page.tsx         # Root page (e.g., homepage)
-        │   │   ├── globals.css      # Global styles
-        │   ├── components/          # Reusable React components
-        ├── package.json             # Project dependencies and scripts
-        ├── next.config.js           # Next configuration
-        └── README.md                # Project documentation
+    next15-boilerplate/
+    ├── public/                  # Static assets
+    │    ├── general/            # Images, icons, etc.
+    │    ├── icons/              # Icons, etc.
+    │    ├── svg/                # Images, icons, etc.
+    ├── src
+    │   ├── app                  # App Router for pages and layouts
+    │   │   ├── (pages)/         # Grouped routes (e.g., home, profile)
+    │   │   ├── layout.tsx       # Root layout for the app
+    │   │   ├── page.tsx         # Root page (e.g., homepage)
+    │   │   ├── globals.css      # Global styles
+    │   ├── components/          # Reusable React components
+    ├── package.json             # Project dependencies and scripts
+    ├── next.config.js           # Next configuration
+    └── README.md                # Project documentation
