@@ -1,4 +1,4 @@
-# Pulse of Sri Lanka - FrontEnd
+# next15 Boilerplate
 
 A modern, responsive social media platform, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), and TypeScript. This project replicates the core user interface of X, focusing on clean design, smooth interactions, and a modular component structure.
 
